@@ -25,6 +25,12 @@ body{
     
 }
 
+.habilidades{
+    clear: both;
+
+}
+
 .habilidades li:nth-child(odd){
     background:lime;
+    
 }
