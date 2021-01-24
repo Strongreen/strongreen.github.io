@@ -4,79 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
-    <style>
-        #apresentacao {
-            font-family: "Lucida Sans Unicode", sans-serif;
-        }
-        #descricao{
-
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        }
-        body{
-            background-color: #FCBF49;
-        }
-        em{
-            background-color: #F77F00;            
-        }
-        strong{
-            background-color: #EAE2B7;            
-        }
-        .item1{
-            font-size: 1.5em;
-        }
-        .item2{
-            font-size: 1.4em;
-        }
-        .item3{
-            font-size: 1.3em;
-        }
-        .item4{
-            font-size: 1.2em;
-        }
-        
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-    <h1 id="apresentacao">
-        Hérika Ströngreen
-    </h1>
+        <div class="nome">
+            <h1>Hérika Ströngreen
+            </h1>
+        </div>        
+        <div class="fotopessoal">
+            <img  id="minhafoto" width="250px"src="https://scontent.fplu4-1.fna.fbcdn.net/v/t1.0-9/80095234_2773995509327106_4432330997350006784_o.jpg?_nc_cat=101&_nc_sid=09cbfe&_nc_eui2=AeEGeQOLQ4Ldou_ZPH7h7HRHlMUJf6TeUUKUxQl_pN5RQqU5bLzaZ4q-JJqeoe7ZU3AvqppSff28_SQMXXHjLOFp&_nc_ohc=jfe6iQO4CFQAX8h0Gxn&_nc_ht=scontent.fplu4-1.fna&oh=3214c36352d7ad29827955e2d9747eb1&oe=5F645C8A" alt="Uma foto de Hérika Ströngreen segurando uma taça de Moscow Mule">
+        </div>
 
-    <img id="fotopessoal" src="https://scontent.fplu4-1.fna.fbcdn.net/v/t1.0-9/80095234_2773995509327106_4432330997350006784_o.jpg?_nc_cat=101&_nc_sid=09cbfe&_nc_eui2=AeEGeQOLQ4Ldou_ZPH7h7HRHlMUJf6TeUUKUxQl_pN5RQqU5bLzaZ4q-JJqeoe7ZU3AvqppSff28_SQMXXHjLOFp&_nc_ohc=jfe6iQO4CFQAX8h0Gxn&_nc_ht=scontent.fplu4-1.fna&oh=3214c36352d7ad29827955e2d9747eb1&oe=5F645C8A" alt="Uma foto de Hérika Ströngreen segurando uma taça de Moscow Mule" width="200">
-    
+        <div class="descricao"></div>
+            <p>Sou <em>brasileira</em>, atualmente moro em <em>Belo Horizonte-MG</em>, 
+            tenho 26 anos, Sou <strong> Eng. da Computação </strong>, <strong>youtuber</strong>, 
+            <strong>instagrammer</strong> falo sobre tecnologia e vim estudar na trybe para 
+            me desenvolver como programadora e ingressar na área de software.
+            </p>
+        </div>
 
-    <p id="descricao">Sou <em>brasileira</em>, atualmente moro em <em>Belo Horizonte-MG</em>, 
-    tenho 26 anos, Sou <strong> Eng. da Computação </strong>, <strong>youtuber</strong>, <br>
-    <strong>instagrammer</strong> falo sobre tecnologia e vim estudar na trybe para 
-    me desenvolver como programadora e ingressar na área de software.<br>
-    </p>
+        
+        
+        <div class="habilidades">
+            <h3> Principais habilidades:</h3>
+            <ul>
+                <li class="item1" >Comunicação</li>
+                <li class="item2" >Autodidatismo</li>
+                <li class="item3" >Dedicacão</li>
+                <li class="item4" >Aprendizado continuo</li>
+            </ul>
+        
 
-    <h3 id="habilidades">
-       Principais habilidades:
-    </h3>
-    <ul>
-        <li class="item1" >Comunicação</li>
-        <li class="item2" >Autodidatismo</li>
-        <li class="item3" >Dedicacão</li>
-        <li class="item4" >Aprendizado continuo</li>
-    </ul>
-    <h3 id="quemsoueu">
-       Quem sou eu?
-    </h3>
-        <a href="#fotopessoal">Minha foto</a>
-    <h3>
-       Minhas redes sociais:
-    </h3>
-    <h4><a target="_blank" href="https://www.youtube.com/HerikaStrongreen">Youtube</a></a></h4>
-    <h4><a target="_blank" href="https://www.instagram.com/Strongreen">Instagram</a></a></h4>
-    
-    <h3>Indice</h3>
 
-        <p><a href="#apresentacao"> Me conhecendo melhor</a> </p>
-        <p><a href="#habilidades"> Minhas habilidades</a> </p>
-        <p><a href="#quemsoueu"> Quem sou eu</a> </p>
-    <br>
+        <h3 class="quemsoueu">Quem sou eu?</h3>
+            <a href="#fotopessoal">Minha foto</a>
+        
+        <h3>Minhas redes sociais:</h3>
+            <a target="_blank" href="https://www.youtube.com/HerikaStrongreen">Youtube</a>
+            <a target="_blank" href="https://www.instagram.com/Strongreen">Instagram</a>
+        
+        <h3>Indice</h3>
 
-</body>
+            <p><a href="#apresentacao"> Me conhecendo melhor</a> </p>
+            <p><a href="#skills"> Minhas habilidades</a> </p>
+            <p><a href="#quemsoueu"> Quem sou eu</a> </p>
+        </div>
+
+    </body>
 </html>
 
